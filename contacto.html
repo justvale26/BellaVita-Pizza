@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BellaVita Pizzeria</title>
+    <link rel="stylesheet" type="text/css" href="./resources/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./resources/vendor/bootstrap/dist/css/bootstrap-social.css">
+    <script src="./resources/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./resources/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link href="./resources/css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Inicio - menú-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collpase">
+                <ul class="nav navbar-nav navbar-left">
+                    <a class="navbar-brand" href="javascript:void(0)">Bella
+                        <strong>Vita</strong>
+                    </a>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home " aria-hidden="true"></span> Home</a>
+                    </li>
+                    <li id="#">
+                        <a href="sobrenosotros.html">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Sobre Nosotros</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell"></i> Menú
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="./menu/antipastos.html">Antipastos</a>
+                            </li>
+                            <li>
+                                <a href="./menu/pizza.html">Pizzas</a>
+                            </li>
+                            <li>
+                                <a href="./menu/especialidades.html">Especialidades</a>
+                            </li>
+                            <li>
+                                <a href="./menu/pastas.html">Pastas</a>
+                            </li>
+                            <li>
+                                <a href="./menu/postres.html">Postres</a>
+                            </li>
+                            <li>
+                                <a href="./menu/ensaladas.html">Ensaladas</a>
+                            </li>
+                            <li>
+                                <a href="./menu/bebidas.html">Bebidas</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Ofertas</li>
+                            <li>
+                                <a href="./menu/combos.html">Combos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="../contacto.html">
+                            <i class="fa fa-envelope-o"></i> Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin - menú-->
+
+    <div style="margin:20px;"></div>
+    <div class="container">
+        <div class="row">
+            <div>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="act">
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-xs-12">
+                <h3>Contactanos</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-md-5 col-sm-5 col-lg-5 col-xs-6">
+                <h5>Dirección</h5>
+                <address>
+                    2a Calle, Zona 2 1-09, El Progreso
+                    <br> A un costado de La Jungla
+                    <br> El Progreso
+                    <br>
+                    <br>
+                    <i class="fa fa-fax"></i>: +502 1234-1234 / +502 1234-5678
+                    <br>
+                    <i class="fa fa-envelope-o"></i>:
+                    <a href="mailto:valeriarodriguez@gmail.com"> valeriarodriguez@gmail.com</a>
+                </address>
+                <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <a type="button" class="btn btn-primary" href="tel:1234-1234">
+                            <i class="fa fa-phone"></i> Llamar a Domicilio</a>
+                        <a type="button" class="btn btn-primary" href="tel:1234-5678">
+                            <i class="fa fa-phone"></i> Llamar Reserva</a>
+                        <a type="button" class="btn btn-success" href="mailto:valeriarodriguez@gmail.com">
+                            <i class="fa fa-envelope-o"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                <p style="color:grey; font-weight:bold;">
+                    <i class="fa fa-globe"></i> Mapa de ubicación</p>
+                <div id="map" style="border:3px solid white; width:350px; height:200px;">
+                    <img src="./resources/img/mapa_ubicacion.png" class="img-responsive" alt="Mapa">
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12">
+                <h3>Contactanos!</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="firstname" class="col-sm-2 control-label">Primer Nombre</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="primer_nombre" name="primer_nombre" placeholder="Ingresa un nombre">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" class="col-sm-2 control-label">Primer Apellido</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="primer_apellido" name="primer_apellido" placeholder="Ingresa un apellido">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telnum" class="col-xs-12 col-sm-2 control-label">Teléfono para contacto</label>
+                        <div class="col-xs-5 col-sm-4 col-md-3">
+                            <div class="input-group">
+                                <div class="input-group-addon">(</div>
+                                <input type="tel" class="form-control" id="num_area" name="num_area" placeholder="Num. Area">
+                                <div class="input-group-addon">)</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-6 col-md-7">
+                            <input type="tel" class="form-control" id="num_telefono" name="num_telefono" placeholder="Número de Teléfono">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailid" class="col-sm-2 control-label">Correo Electrónico</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electrónico">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox col-sm-5 col-sm-offset-2">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="aprobacion" value="">
+                                <strong>Cómo te contactamos?</strong>
+                            </label>
+                        </div>
+                        <div class="col-sm-3 col-sm-offset-1">
+                            <select class="form-control">
+                                <option>Teléfono</option>
+                                <option>Correo Electrónico</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback" class="col-sm-2 control-label">Dejanos tú comentario aquí:</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="comentario" name="comentario" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+        </div>
+    </div>
+    <!--Inicio - Footer-->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-style padding_o margin-section">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_o footer-style">
+            <div class="col-sm-2 col-xs-5 col-lg-2 col-lg-offset-1">
+                <h5>Enlaces</h5>
+                <ul class=".link-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./menu/antipastos.html">Antipastos</a>
+                    </li>
+                    <li>
+                        <a href="./menu/pizza.html">Pizzas</a>
+                    </li>
+                    <li>
+                        <a href="./menu/especialidades.html">Especialidades</a>
+                    </li>
+                    <li>
+                        <a href="./menu/pastas.html">Pastas</a>
+                    </li>
+                    <li>
+                        <a href="./menu/postres.html">Postres</a>
+                    </li>
+                    <li>
+                        <a href="./menu/ensaladas.html">Ensaladas</a>
+                    </li>
+                    <li>
+                        <a href="./menu/bebidas.html">Bebidas</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 col-sm-12 col-lg-12 col-xs-12">
+                <h5>Dirección</h5>
+                <address>
+                    2a Calle, Zona 2 1-09, El Progreso
+                    <br> A un costado de La Jungla
+                    <br> El Progreso
+                    <br>
+                    <br>
+                    <i class="fa fa-fax"></i>: +502 1234-1234 / +502 1234-5678
+                    <br>
+                    <i class="fa fa-envelope-o"></i>:
+                    <a href="mailto:valeriarodriguez@gmail.com"> valeriarodriguez@gmail.com</a>
+                </address>
+            </div>
+            <div class="col-md-4 col-sm-12 col-lg-12 col-xs-12">
+                <div class="nav navbar-nav" style="padding: 40px 10px;">
+                    <ul class="list-inline social-buttons">
+                        <li id="special">
+                            <a class="btn btn-social-icon btn-google-plus" href="##">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon btn-facebook" href="##">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon btn-linkedin" href="##">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon btn-twitter" href="##">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-social-icon" href="mailto:">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <p style="padding:10px;"></p>
+            <p align="center" class="my-copyright">© Valeria Rodriguez</p>
+        </div>
+    </div>
+    <!--Fin - Footer -->
+</body>
+
+</html>

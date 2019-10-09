@@ -1,0 +1,410 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+p {
+  font-style: italic;
+}
+
+.padding_o {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+.margin-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.foo {
+  background-color: black !important;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.margin-section {
+  margin-top: 5%;
+}
+
+
+address {
+  font-size: 90%;
+  margin: 0px;
+  color: grey;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background: white;
+}
+
+.navbar-inverse {
+  background-color: #f2798f;
+  border-color: #a66d82;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #f2ebee;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #000000;
+}
+
+.navbar-inverse .navbar-text {
+  color: #f2ebee;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #f2ebee;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #000000;
+}
+
+.navbar-inverse .navbar-nav>li>.dropdown-menu {
+  background-color: #f2798f;
+}
+
+.navbar-inverse .navbar-nav>li>.dropdown-menu>li>a {
+  color: #f2ebee;
+}
+
+.navbar-inverse .navbar-nav>li>.dropdown-menu>li>a:hover,
+.navbar-inverse .navbar-nav>li>.dropdown-menu>li>a:focus {
+  color: #000000;
+  background-color: #a66d82;
+}
+
+.navbar-inverse .navbar-nav>li>.dropdown-menu>li.divider {
+  background-color: #a66d82;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #000000;
+  background-color: #a66d82;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #000000;
+  background-color: #a66d82;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #a66d82;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #a66d82;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #f2ebee;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #f2ebee;
+}
+
+.navbar-inverse .navbar-link {
+  color: #f2ebee;
+}
+
+.navbar-inverse .navbar-link:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #f2ebee;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #000000;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #000000;
+    background-color: #a66d82;
+  }
+}
+
+.breadcrumb>.act>a {
+  color: black;
+}
+
+.breadcrumb {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.label-default {
+  font-size: 18px;
+  background-color: black;
+  color: red;
+  border-radius: 30px;
+}
+
+strong {
+  color: black;
+}
+
+.alert-warning>a {
+  color: black;
+  text-decoration: none;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+.affix {
+  top: 180px;
+}
+
+.card-container {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.card {
+  border: black;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  color: black;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline overline;
+}
+
+.card .card-text {
+  color: black;
+  text-align: center;
+}
+
+.card a {
+  margin: auto;
+  padding: 10px;
+}
+
+.card-button {
+  background-color: #f2798f;
+  color: white;
+}
+
+#myScrollspy ul li>a {
+  opacity: .6;
+  color: white;
+  background: #A66D82;
+  border-radius: 50px;
+  font-weight: bold;
+
+}
+
+#button {
+  color: white;
+  font-weight: bold;
+  opacity: .7;
+  position: relative;
+  top: 50%;
+}
+
+#button:hover {
+  background: red;
+}
+
+h5 {
+  color: grey;
+
+}
+
+.carousel {
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel .item {
+  min-height: 300px;
+  align-content: center;
+}
+
+.carousel h2 {
+  font-size: 50px;
+}
+
+.carousel p {
+  font-size: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+
+#carouselButtons {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0
+}
+
+
+ul.social-buttons li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #f2798f;
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  outline: 0;
+  -webkit-transition: transform 2s, background 2s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #04ADBF;
+}
+
+ul.social-buttons li a:hover {
+  transform: rotate(360deg);
+  background: #04ADBF;
+}
+
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0
+}
+
+
+#special>a {
+  background: red;
+}
+
+#special>a:hover {
+  background: #04ADBF;
+}
+
+#sample {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  opacity: .8;
+  position: relative;
+  top: 550px;
+
+}
+
+.center-column {
+  float: none;
+  margin: 0 auto;
+}
+
+.vivero-text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.precio {
+  color: white;
+  font-size: 25px;
+  background-color: green;
+  height: 30px;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-style: normal;
+}
+
+.platillo {
+  color: #04ADBF;
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: normal
+}
+
+.footer-style {
+  background-color: #f2798f;
+  color: white;
+}
+
+.footer-style h5 {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline overline;
+}
+
+.footer-style li a {
+  font-size: 15px;
+  color: white;
+}
+
+.footer-style li a:hover {
+  background-color: #a66d82;
+  color: white;
+}
+
+.footer-style address {
+  color: white;
+  font-size: 15px;
+}
+
+.footer-style address a {
+  color: white;
+}
+
+.footer-style address a:hover {
+  color: #a66d82;
+}
+
+.my-copyright {
+  color: white;
+  font-size: 25px;
+}
