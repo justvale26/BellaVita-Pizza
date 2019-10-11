@@ -408,3 +408,10 @@ ul.social-buttons li a:hover {
   color: white;
   font-size: 25px;
 }
+
+.map-container {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
